@@ -1,0 +1,212 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>HRSKILLX (OPC) PVT LTD</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: #f8f8f8;
+      line-height: 1.6;
+      color: #333;
+    }
+    header {
+      background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), 
+      url('https://cdn.openai.com/chatgpt/website-images/hr-background.jpg') no-repeat center center/cover;
+      color: white;
+      padding: 100px 20px;
+      text-align: center;
+    }
+    nav {
+      background-color: #1b263b;
+      padding: 10px 0;
+      text-align: center;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: 500;
+    }
+    nav a:hover { color: #00b4d8; }
+    section {
+      padding: 50px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    h2 {
+      color: #0d1b2a;
+      margin-bottom: 20px;
+    }
+    ul { text-align: left; }
+    ul li { margin-bottom: 15px; }
+    form {
+      background-color: #ffffff;
+      padding: 25px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      max-width: 500px;
+      margin: auto;
+    }
+    input, textarea {
+      width: 100%;
+      padding: 12px;
+      margin: 10px 0 20px 0;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    }
+    input[type="submit"] {
+      background-color: #1b263b;
+      color: white;
+      border: none;
+      font-weight: bold;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+    input[type="submit"]:hover {
+      background-color: #00b4d8;
+    }
+    footer {
+      background-color: #0d1b2a;
+      color: white;
+      text-align: center;
+      padding: 20px 10px;
+    }
+    @media (max-width: 600px) {
+      nav a {
+        display: block;
+        margin: 10px 0;
+      }
+    }
+
+    .whatsapp-button {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background-color: #25d366;
+      color: white;
+      border-radius: 50px;
+      padding: 12px 20px;
+      font-size: 16px;
+      text-decoration: none;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+      z-index: 1000;
+      display: flex;
+      align-items: center;
+    }
+    .whatsapp-button:hover {
+      background-color: #1ebe5d;
+    }
+    .whatsapp-button img {
+      width: 20px;
+      height: 20px;
+      margin-right: 8px;
+    }
+    .map-container {
+      margin-top: 30px;
+      text-align: center;
+    }
+    .map-container iframe {
+      width: 100%;
+      height: 300px;
+      border: none;
+      border-radius: 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Welcome to HRSKILLX (OPC) PVT LTD</h1>
+    <p>Empowering Your Workforce with the Right Talent</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#jobform">Apply Job</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="about">
+    <h2>About Us</h2>
+    <p>HRSKILLX (OPC) PVT LTD is a professional manpower services company based in India, focused on delivering qualified and reliable talent to businesses. Our mission is to bridge the gap between top companies and skilled individuals by providing customized HR and recruitment solutions. With a commitment to integrity, efficiency, and client satisfaction, we aim to be your long-term partner in workforce management.</p>
+  </section>
+
+  <section id="services">
+    <h2>Our Services</h2>
+    <ul>
+      <li><strong>Manpower Outsourcing:</strong> Flexible staffing solutions for temporary or long-term business needs.</li>
+      <li><strong>HR Consultancy:</strong> Expert guidance for HR policies, compliance, and performance systems.</li>
+      <li><strong>Recruitment Solutions:</strong> End-to-end hiring services tailored for startups to enterprises.</li>
+      <li><strong>Payroll Management:</strong> Complete payroll handling with accuracy and statutory compliance.</li>
+    </ul>
+  </section>
+
+  <section id="jobform">
+    <h2>Apply for a Job</h2>
+    <form>
+      <label>Full Name</label>
+      <input type="text" name="name" required />
+
+      <label>Mobile Number</label>
+      <input type="tel" name="mobile" required />
+
+      <label>Email</label>
+      <input type="email" name="email" required />
+
+      <label>Upload Resume</label>
+      <input type="file" name="resume" required />
+
+      <input type="submit" value="Submit Application" />
+    </form>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <form>
+      <label>Your Name</label>
+      <input type="text" name="cname" required />
+
+      <label>Your Email</label>
+      <input type="email" name="cemail" required />
+
+      <label>Message</label>
+      <textarea name="message" rows="5" required></textarea>
+
+      <input type="submit" value="Send Message" />
+    </form>
+
+    <br />
+    <p><strong>Email:</strong> hrskillxpvtltd@gmail.com</p>
+    <p><strong>Telephone:</strong> 3172 7902</p>
+    <p><strong>Mobile:</strong> 8910417220</p>
+    <p><strong>Address:</strong> 75/2, Majumdar Para, Airport 1no, International Airport, Motilal Colony, Rajbari, Dum Dum, Kolkata - 700079, West Bengal, India</p>
+
+    <div class="map-container">
+      <iframe 
+        src="https://www.google.com/maps?q=75/2,+Majumdar+Para,+Rajbari,+Dum+Dum,+Kolkata,+West+Bengal+700079,+India&output=embed"
+        allowfullscreen
+        loading="lazy">
+      </iframe>
+    </div>
+  </section>
+
+  <a class="whatsapp-button" href="https://wa.me/918910417220" target="_blank">
+    <img src="https://img.icons8.com/ios-filled/50/ffffff/whatsapp.png" alt="WhatsApp"/> Chat with Us
+  </a>
+
+  <footer>
+    <p>&copy; 2025 HRSKILLX (OPC) PVT LTD. All Rights Reserved.</p>
+  </footer>
+
+</body>
+</html>
